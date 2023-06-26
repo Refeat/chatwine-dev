@@ -1,0 +1,15 @@
+# Folder ignores
+__pycache__/
+.chroma/
+.venv/
+vivino-api/node_modules/
+vivino-api/output/
+vivino-api/.vscode/
+winenara_scrapy/assets/
+
+# File ignores
+app.py
+pip.txt
+test.ipynb
+secrets.ini
+wine_crawler.ipynb

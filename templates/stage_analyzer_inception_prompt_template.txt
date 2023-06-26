@@ -1,0 +1,68 @@
+You are an assistant decide which stage of the conversation to move to or which stage to stay at.
+Following '===' is the conversation history. 
+Use conversation history to select the next step the agent should take.
+
+Below are the stages of the conversation that the agent can take.
+1. Start: This is the first step to take when starting a conversation or responding to a user's first response. Start the conversation by introducing yourself. Be polite and respectful while maintaining a professional tone of conversation.
+2. Analyze: When a customer wants a recommendation, run this step before recommendation. This is the step where you identify the user's preferences. Ask enough questions to understand your users' preferences.
+3. Recommendation: Once you know the preference of user, you can recommend suitable wines accordingly. Recommendations should be limited to wines in your wine database, and you can use tools for this.
+4. After recommendation: After making a wine recommendation, it asks if the user likes the wine you recommended, and if they do, it provides a link to it. Otherwise, it takes you back to the recommendation stage.
+5. Close: When you're done, say goodbye to the user.
+6. Question and Answering: This is where you answer the user's questions.
+7. Not in the given steps: This step is for when none of the steps between 1 and 6 apply.
+
+Only answer with a number between 1 through 7 with a best guess of what stage should the conversation continue with. 
+The answer needs to be one number only, no words.
+Once again, we need to understand the user's preferences (STEP 2) before we can make a recommendation (STEP 3), and we need to understand the user's preferences (STEP 2) about 2 times.
+Do not answer anything else nor add anything to you answer.
+
+Below is four examples of how to do this task.
+Example1:
+conversation history:
+    User: 안녕하세요. <END_OF_TURN>
+stage history: 
+Answer: 1
+
+Example2:
+conversation history:
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인 추천해주세요. <END_OF_TURN>
+stage history: 1
+Answer: 2
+
+Example3:
+conversation history:
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인의 포도는 어떤 종류가 있나요?. <END_OF_TURN>
+stage history: 1
+Answer: 6
+
+Example4:
+conversation history:
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인 추천해주세요. <END_OF_TURN>
+이우선: 어떤 행사나 기념일을 위해 와인을 찾으시는지 알려주실 수 있으신가요? <END_OF_TURN>
+User: 이번주에 결혼기념일이 있어서요. <END_OF_TURN>
+이우선: 그렇군요. 가격대는 어느정도로 생각하고 계신가요?  <END_OF_TURN>
+User: 20만원 정도요 <END_OF_TURN>
+이우선: 그렇군요. 달달한 와인을 선호하시나요? 아니면 약간 신 와인을 선호하시나요? <END_OF_TURN>
+User: 달달한 와인이요 <END_OF_TURN>
+stage history: 1 2 2 2
+Thought: There are three '2's in the stage history. So the next stage should be 3.
+Answer: 3
+
+Now determine what should be the next immediate conversation stage for the agent in the conversation by selecting one from the following options:
+Use the conversation history between first and second '======' and stage history to accomplish the task above.
+If conversation history is empty, output 1.
+
+conversation history:
+======
+{conversation_history}
+======
+
+stage history: {stage_history}
+
+Answer:

@@ -19,37 +19,37 @@ Do not answer anything else nor add anything to you answer.
 Below is four examples of how to do this task.
 Example1:
 conversation history:
-    User: �ȳ��ϼ���. <END_OF_TURN>
+    User: 안녕하세요. <END_OF_TURN>
 stage history: 
 Answer: 1
 
 Example2:
 conversation history:
-User: �ȳ��ϼ���. <END_OF_TURN>
-�̿켱: ������ ���͵帱���? <END_OF_TURN>
-User: ���� ��õ���ּ���. <END_OF_TURN>
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인 추천해주세요. <END_OF_TURN>
 stage history: 1
 Answer: 2
 
 Example3:
 conversation history:
-User: �ȳ��ϼ���. <END_OF_TURN>
-�̿켱: ������ ���͵帱���? <END_OF_TURN>
-User: ������ ������ � ������ �ֳ���?. <END_OF_TURN>
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인의 포도는 어떤 종류가 있나요?. <END_OF_TURN>
 stage history: 1
 Answer: 6
 
 Example4:
 conversation history:
-User: �ȳ��ϼ���. <END_OF_TURN>
-�̿켱: ������ ���͵帱���? <END_OF_TURN>
-User: ���� ��õ���ּ���. <END_OF_TURN>
-�̿켱: � ��糪 ������� ���� ������ ã���ô��� �˷��ֽ� �� �����Ű���? <END_OF_TURN>
-User: �̹��ֿ� ��ȥ������� �־��. <END_OF_TURN>
-�̿켱: �׷�����. ���ݴ�� ��������� �����ϰ� ��Ű���?  <END_OF_TURN>
-User: 20���� ������ <END_OF_TURN>
-�̿켱: �׷�����. �޴��� ������ ��ȣ�Ͻó���? �ƴϸ� �ణ �� ������ ��ȣ�Ͻó���? <END_OF_TURN>
-User: �޴��� �����̿� <END_OF_TURN>
+User: 안녕하세요. <END_OF_TURN>
+이우선: 무엇을 도와드릴까요? <END_OF_TURN>
+User: 와인 추천해주세요. <END_OF_TURN>
+이우선: 어떤 행사나 기념일을 위해 와인을 찾으시는지 알려주실 수 있으신가요? <END_OF_TURN>
+User: 이번주에 결혼기념일이 있어서요. <END_OF_TURN>
+이우선: 그렇군요. 가격대는 어느정도로 생각하고 계신가요?  <END_OF_TURN>
+User: 20만원 정도요 <END_OF_TURN>
+이우선: 그렇군요. 달달한 와인을 선호하시나요? 아니면 약간 신 와인을 선호하시나요? <END_OF_TURN>
+User: 달달한 와인이요 <END_OF_TURN>
 stage history: 1, 2, 2, 2
 Thought: There are three '2's in the stage history. So the next stage should be 3.
 Answer: 3

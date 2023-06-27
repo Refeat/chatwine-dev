@@ -1,0 +1,12 @@
+{
+    "_type": "few_shot",
+    "input_variables": ["conversation_history"],
+    "prefix_path": "./templates/user_response_prompt_prefix_template.txt",
+    "example_prompt": {
+        "_type": "prompt",
+        "input_variables": ["conversation_history", "user_responses"],
+        "template": "conversation_history: \n{conversation_history}\n{user_responses}"
+    },
+    "examples": "./templates/examples/user_response_prompt_examples.json",
+    "suffix_path": "./templates/user_response_prompt_suffix_template.txt"
+}

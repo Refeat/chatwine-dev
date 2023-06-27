@@ -1,0 +1,5 @@
+Now generate a few candidate responses, separated by "|",  for the current user to say.
+
+conversation history:
+{conversation_history}
+user response:

@@ -72,8 +72,8 @@ class WinenaraSpider(scrapy.Spider):
         def extract_tag():
             return response.css(".cate_label .label::text").getall()
         
-        def extract_img_url():
-            img_src = response.css(".lozad::attr(data-src)").get(default="")
+        def extract_img_url(query):
+            img_src = response.css(query).get(default="")
             if img_src:
                 img_url = response.urljoin(img_src)  # Assuming img_src is a relative url
                 return img_url
@@ -85,8 +85,9 @@ class WinenaraSpider(scrapy.Spider):
         data_dict['price'] = extract_with_css("p ins::text")
         data_dict['name'] = extract_with_css(".prd_name::text")
         data_dict['en_name'] = extract_with_css(".prd_en_name::text")
-        data_dict['img_url'] = [extract_img_url()]
+        data_dict['img_url'] = [extract_img_url(".lozad::attr(data-src)")]
         data_dict['features'] = extract_features()
+        data_dict['feature_img_url'] = [extract_img_url(".tab_con > p > img::attr(src)")]
         data_dict['tag'] = extract_tag()
         data_dict['rating'] = extract_with_css(".info strong::text")
         data_dict['vivino_link'] = extract_with_css("div.box > a::attr(href)")  

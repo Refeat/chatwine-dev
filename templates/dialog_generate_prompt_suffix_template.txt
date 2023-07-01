@@ -1,0 +1,3 @@
+Now create a conversation between a Assistant and a User that recommends wines.
+
+conversation history:

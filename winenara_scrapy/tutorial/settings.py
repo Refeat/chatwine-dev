@@ -84,7 +84,7 @@ COOKIES_ENABLED = True
 #    "tutorial.pipelines.TutorialPipeline": 300,
 #}
 ITEM_PIPELINES = {'tutorial.pipelines.CustomImagesPipeline': 1}
-IMAGES_STORE = 'C:/Users/chois/Desktop/Audrey/data/tutorial/assets/img'
+IMAGES_STORE = 'C:/Users/chois/Desktop/Audrey/data/winenara_scrapy/assets/img'
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)

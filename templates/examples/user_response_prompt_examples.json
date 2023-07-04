@@ -1,14 +1,14 @@
 [
     {
         "conversation_history": "", 
-        "user_responses": "user_response: ÀÌ¹ø ÁÖ¿¡ Ä£±¸µé°ú ¸ðÀÓÀÌ ÀÖ´Âµ¥, ÈÇ¸¢ÇÑ ¿ÍÀÎ ÇÑ º´À» ÃßÃµÇØÁÙ·¡? | ÀÔ¹®ÀÚ¿¡°Ô ÁÁÀº ¿ÍÀÎÀ» ÃßÃµÇØÁÙ·¡? | º¸¸£µµ¿Í ºÎ¸£°í´º ¿ÍÀÎÀÇ Â÷ÀÌÁ¡Àº ¹¹¾ß?"
+        "user_responses": "user_response: ì´ë²ˆ ì£¼ì— ì¹œêµ¬ë“¤ê³¼ ëª¨ìž„ì´ ìžˆëŠ”ë°, í›Œë¥­í•œ ì™€ì¸ í•œ ë³‘ì„ ì¶”ì²œí•´ì¤„ëž˜? | ìž…ë¬¸ìžì—ê²Œ ì¢‹ì€ ì™€ì¸ì„ ì¶”ì²œí•´ì¤„ëž˜? | ë³´ë¥´ë„ì™€ ë¶€ë¥´ê³ ë‰´ ì™€ì¸ì˜ ì°¨ì´ì ì€ ë­ì•¼?"
     },
     {
-        "conversation_history": "User: ¿ÍÀÎ ÇÏ³ª¸¸ ÃßÃµÇØÁà <END_OF_TURN>\nÀÌ¿ì¼±: °í°´´ÔÀÇ ÃëÇâÀ» ¾Ë¾Æ¾ß ¿ÍÀÎÀ» ÃßÃµÇØµå¸± ¼ö ÀÖ¾î¿ä. ¿ÍÀÎ Á¾·ù Áß ¾î¶² °ÍÀ» ¼±È£ÇÏ½Ã³ª¿ä? ·¹µå, È­ÀÌÆ®, ·ÎÁ¦, ½ºÆÄÅ¬¸µ Áß¿¡¼­ ¼±ÅÃÇØÁÖ¼¼¿ä. <END_OF_TURN>\n",
-        "user_responses": "user_response: ·¹µå ¿ÍÀÎ | È­ÀÌÆ® ¿ÍÀÎ | ·ÎÁ¦ ¿ÍÀÎ | ½ºÆÄÅ¬¸µ"
+        "conversation_history": "User: ì™€ì¸ í•˜ë‚˜ë§Œ ì¶”ì²œí•´ì¤˜ <END_OF_TURN>\nì´ìš°ì„ : ê³ ê°ë‹˜ì˜ ì·¨í–¥ì„ ì•Œì•„ì•¼ ì™€ì¸ì„ ì¶”ì²œí•´ë“œë¦´ ìˆ˜ ìžˆì–´ìš”. ì™€ì¸ ì¢…ë¥˜ ì¤‘ ì–´ë–¤ ê²ƒì„ ì„ í˜¸í•˜ì‹œë‚˜ìš”? ë ˆë“œ, í™”ì´íŠ¸, ë¡œì œ, ìŠ¤íŒŒí´ë§ ì¤‘ì—ì„œ ì„ íƒí•´ì£¼ì„¸ìš”. <END_OF_TURN>",
+        "user_responses": "user_response: ë ˆë“œ ì™€ì¸ | í™”ì´íŠ¸ ì™€ì¸ | ë¡œì œ ì™€ì¸ | ìŠ¤íŒŒí´ë§"
     },
     {
-        "conversation_history": "User: ¿ÍÀÎ ÇÏ³ª¸¸ ÃßÃµÇØÁÖ¼¼¿ä <END_OF_TURN>\nÀÌ¿ì¼±: °í°´´ÔÀÇ ÃëÇâÀ» ¾Ë¾Æ¾ß ¿ÍÀÎÀ» ÃßÃµÇØµå¸± ¼ö ÀÖ¾î¿ä. ¿ÍÀÎ Á¾·ù Áß ¾î¶² °ÍÀ» ¼±È£ÇÏ½Ã³ª¿ä? ·¹µå, È­ÀÌÆ®, ·ÎÁ¦, ½ºÆÄÅ¬¸µ Áß¿¡¼­ ¼±ÅÃÇØÁÖ¼¼¿ä. <END_OF_TURN>\nUser: ·ÎÁ¦°¡ ÁÁ°Ú±º <END_OF_TURN>\nÀÌ¿ì¼±: ÁÁ¾Æ¿ä, ·ÎÁ¦ ¿ÍÀÎÀ» ÁÁ¾ÆÇÏ½Ã´Â±º¿ä! ·ÎÁ¦ ¿ÍÀÎÀÇ ´Ü¸À Á¤µµ¸¦ ¾Ë·ÁÁÖ½Ã°Ú¾î¿ä? ´Þ´ÞÇÑ °ÍÀ» ¼±È£ÇÏ½Ã³ª¿ä, ¾Æ´Ï¸é Àû´çÇÑ ´Ü¸ÀÀ» ¼±È£ÇÏ½Ã³ª¿ä? <END_OF_TURN>\n",
-        "user_responses": "User response: ´Þ´ÞÇÑ ¿ÍÀÎ | ´ÞÁö¾ÊÀº ¿ÍÀÎ | Àû´çÇÑ ´Ü¸ÀÀÇ ¿ÍÀÎ | Àß ¸ð¸£°Ú¾î"
+        "conversation_history": "User: ì™€ì¸ í•˜ë‚˜ë§Œ ì¶”ì²œí•´ì£¼ì„¸ìš” <END_OF_TURN>\nì´ìš°ì„ : ê³ ê°ë‹˜ì˜ ì·¨í–¥ì„ ì•Œì•„ì•¼ ì™€ì¸ì„ ì¶”ì²œí•´ë“œë¦´ ìˆ˜ ìžˆì–´ìš”. ì™€ì¸ ì¢…ë¥˜ ì¤‘ ì–´ë–¤ ê²ƒì„ ì„ í˜¸í•˜ì‹œë‚˜ìš”? ë ˆë“œ, í™”ì´íŠ¸, ë¡œì œ, ìŠ¤íŒŒí´ë§ ì¤‘ì—ì„œ ì„ íƒí•´ì£¼ì„¸ìš”. <END_OF_TURN>User: ë¡œì œê°€ ì¢‹ê² êµ° <END_OF_TURN>\nì´ìš°ì„ : ì¢‹ì•„ìš”, ë¡œì œ ì™€ì¸ì„ ì¢‹ì•„í•˜ì‹œëŠ”êµ°ìš”! ë¡œì œ ì™€ì¸ì˜ ë‹¨ë§› ì •ë„ë¥¼ ì•Œë ¤ì£¼ì‹œê² ì–´ìš”? ë‹¬ë‹¬í•œ ê²ƒì„ ì„ í˜¸í•˜ì‹œë‚˜ìš”, ì•„ë‹ˆë©´ ì ë‹¹í•œ ë‹¨ë§›ì„ ì„ í˜¸í•˜ì‹œë‚˜ìš”? <END_OF_TURN>",
+        "user_responses": "user_response: ë‹¬ë‹¬í•œ ì™€ì¸ | ë‹¬ì§€ì•Šì€ ì™€ì¸ | ì ë‹¹í•œ ë‹¨ë§›ì˜ ì™€ì¸ | ìž˜ ëª¨ë¥´ê² ì–´"
     }
 ]

@@ -1,5 +1,5 @@
 {
   "_type": "prompt",
-  "input_variables": ["conversation_history", "stage_history"],
+  "input_variables": ["conversation_history", "stage_history", "last_user_saying"],
   "template_path": "./templates/stage_analyzer_inception_prompt_template.txt"
 }

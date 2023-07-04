@@ -6,6 +6,7 @@ vivino-api/node_modules/
 vivino-api/output/
 vivino-api/.vscode/
 winenara_scrapy/assets/
+data/wine_and_more/
 
 # File ignores
 app.py
@@ -13,3 +14,4 @@ pip.txt
 test.ipynb
 secrets.ini
 wine_crawler.ipynb
+chromedriver.exe

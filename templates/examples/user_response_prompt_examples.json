@@ -1,14 +1,10 @@
 [
     {
-        "conversation_history": "", 
-        "user_responses": "user_response: 이번 주에 친구들과 모임이 있는데, 훌륭한 와인 한 병을 추천해줄래? | 입문자에게 좋은 와인을 추천해줄래? | 보르도와 부르고뉴 와인의 차이점은 뭐야?"
+        "conversation_history": "User: Recommend me a wine please <END_OF_TURN>\nAgent: We need to know your tastes so we can recommend a wine. Which type of wine do you prefer? Please choose from red, white, ros?, or sparkling. <END_OF_TURN>\n",
+        "user_responses": "user_response: I think ���� ���� would be nice|I love ȭ��Ʈ ����|I wonder what a ���� ���� would be like."
     },
     {
-        "conversation_history": "User: 와인 하나만 추천해줘 <END_OF_TURN>\n이우선: 고객님의 취향을 알아야 와인을 추천해드릴 수 있어요. 와인 종류 중 어떤 것을 선호하시나요? 레드, 화이트, 로제, 스파클링 중에서 선택해주세요. <END_OF_TURN>",
-        "user_responses": "user_response: 레드 와인 | 화이트 와인 | 로제 와인 | 스파클링"
-    },
-    {
-        "conversation_history": "User: 와인 하나만 추천해주세요 <END_OF_TURN>\n이우선: 고객님의 취향을 알아야 와인을 추천해드릴 수 있어요. 와인 종류 중 어떤 것을 선호하시나요? 레드, 화이트, 로제, 스파클링 중에서 선택해주세요. <END_OF_TURN>User: 로제가 좋겠군 <END_OF_TURN>\n이우선: 좋아요, 로제 와인을 좋아하시는군요! 로제 와인의 단맛 정도를 알려주시겠어요? 달달한 것을 선호하시나요, 아니면 적당한 단맛을 선호하시나요? <END_OF_TURN>",
-        "user_responses": "user_response: 달달한 와인 | 달지않은 와인 | 적당한 단맛의 와인 | 잘 모르겠어"
+        "conversation_history": "User: Please recommend me a wine please <END_OF_TURN>\nAgent: We need to know your tastes before we can recommend a wine. Which type of wine do you prefer? Red, white, ros?, or sparkling? <END_OF_TURN>\nUser: I'll go with ros? <END_OF_TURN>\nAgent: Great, you like ros?! Can you tell me how sweet you like your ros?? Do you prefer it sweet or just right? <END_OF_TURN>\n",
+        "user_responses": "user_response: I think sweet wine would be nice|I prefer a wine that's not too sweet.|Well, I'm not sure."
     }
 ]

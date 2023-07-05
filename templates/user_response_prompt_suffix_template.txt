@@ -1,4 +1,5 @@
-Now generate a few candidate responses, separated by "|",  for the current user to say.
+Now generate three candidate responses, separated by "|",  for the most recent wine chatbot saying, considering the context of conversation.
+Answer in korean.
 
 conversation history:
 {conversation_history}

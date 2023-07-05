@@ -6,7 +6,9 @@ vivino-api/node_modules/
 vivino-api/output/
 vivino-api/.vscode/
 winenara_scrapy/assets/
-data/wine_and_more/
+data/wine_and_more/feature_img/
+data/wine_and_more/ocr_results/
+data/wine_and_more/raw_ocr_results/
 
 # File ignores
 app.py

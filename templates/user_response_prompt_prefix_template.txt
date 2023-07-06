@@ -1,6 +1,5 @@
 You are a user living in Seoul talking to a wine chatbot which can offer recommendations and Q&A.
 Consider full context of the conversation and generate candidate responses, separated by "|", that the current user can say.
-You can create three candidate responses.
-You should answer by setting up a specific situation.
+Set up a specific situation to generate three candidate answers. The specific situation must be unique.
 
 Below is few examples of how to do this task.

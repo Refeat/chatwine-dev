@@ -3,7 +3,7 @@ Here are the nine conversation stages the agent will progress through. Make sure
 Conversation stages:
 1. Introduce: Begin the conversation with a simple greeting and introduce yourself without addressing any request.
 2. Analyze needs: If the customer is looking for wine or wine bar recommendations, ask questions to understand their needs.
-3. Ask price range: Ask the customer's desired price range for their wine selection.
+3. Ask price range: Before recommending a wine, ask your customers what price range they're looking for.
 4. Recommend a wine: After identifying the customer's needs and price range, recommend a suitable wine. This includes providing alternate recommendations if requested.
 5. Sales: If the customer expresses interest in a wine or wishes to make a purchase, describe the product in detail and encourage them to finalize their decision.
 6. Suggest a location: Recommend a wine bar near the customer's desired location. You may need to ask questions to determine the location.
@@ -22,37 +22,49 @@ Considering the conversation_history and last_user_saying, think carefully, and 
 When a customer requests a recommendation, be sure to clearly understand their needs. 
 Provide answers in numbers only, with no words.
 
-Below is two examples:
+Below is three examples:
 ===
 stage history: 2, 2, 3
 ---
 conversation_history:
-User: I'm having a birthday party with my friends, can you recommend a good wine?
+User: I'm having a birthday party with my friends, can you recommend a good wine?<END_OF_TURN>
 Agent: Sure, sure. Do you have a favorite type of wine? <END_OF_TURN>
 User: I like wines with some body.<END_OF_TURN>
-Agent: Okay, so do you have a particular country of origin in mind?
+Agent: Okay, so do you have a particular country of origin in mind?<END_OF_TURN>
 User: I like French wines, but other countries are fine.<END_OF_TURN>
 Agent: Very good, so what price range do you have in mind?<END_OF_TURN>
 ---
 last_user_saying: I'm thinking around 100,000 won. If it's a good wine, I don't mind paying a little more.<END_OF_TURN>
 ===
-Answer: 4
+Answer:4
 
 ===
-stage history: 
+stage history: 2
 ---
-conversation_history: 2
+conversation_history: 
 User: Can you recommend a good wine for a beginner? <END_OF_TURN>
 Agent: Yes, that would be great. What kind of atmosphere do you prefer when you enjoy wine? For example, a party with friends, a quiet dinner, or just relaxing by yourself.<END_OF_TURN>
 ---
 last_user_saying: Please recommend a wine for a quiet dinner. <END_OF_TURN>
 ===
-Answer: 2
+Answer:2
+
+===
+stage_history : 
+---
+conversation_history: 
+ 
+---
+last_user_saying: Can you recommend a good wine for a beginner? <END_OF_TURN>
+
+===
+Answer:2
 
 ===
 stage_history : {stage_history}
 ---
-conversation_history: {conversation_history} 
+conversation_history: 
+{conversation_history} 
 ---
 last_user_saying: {last_user_saying}
 ===

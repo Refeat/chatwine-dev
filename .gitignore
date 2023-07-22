@@ -1,19 +1,12 @@
 # Folder ignores
 __pycache__/
-.chroma/
+chroma_db/
 .venv/
-vivino-api/node_modules/
-vivino-api/output/
-vivino-api/.vscode/
-winenara_scrapy/assets/
-data/wine_and_more/feature_img/
-data/wine_and_more/ocr_results/
-data/wine_and_more/raw_ocr_results/
+tutorials/chroma_db/
+data/legacy/vivino-api/
+data/vivino.json
 
 # File ignores
-app.py
 pip.txt
-test.ipynb
-secrets.ini
-wine_crawler.ipynb
+secrets_copy.ini
 chromedriver.exe

@@ -1,5 +1,0 @@
-{
-  "_type": "prompt",
-  "input_variables": ["conversation_history", "stage_history", "last_user_saying"],
-  "template_path": "./templates/assistant_prompt_template.txt"
-}

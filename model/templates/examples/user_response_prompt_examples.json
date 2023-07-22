@@ -1,0 +1,10 @@
+[
+    {
+        "conversation_history": "User: Recommend me a wine please <END_OF_TURN>\nAgent: We need to know your tastes so we can recommend a wine. Which type of wine do you prefer? Please choose from red, white, ros?, or sparkling. <END_OF_TURN>\n",
+        "user_responses": "user_response: I think 레드 와인 would be nice|I love 화이트 와인|I wonder what a 로제 와인 would be like."
+    },
+    {
+        "conversation_history": "User: Please recommend me a wine please <END_OF_TURN>\nAgent: We need to know your tastes before we can recommend a wine. Which type of wine do you prefer? Red, white, ros?, or sparkling? <END_OF_TURN>\nUser: I'll go with ros? <END_OF_TURN>\nAgent: Great, you like ros?! Can you tell me how sweet you like your ros?? Do you prefer it sweet or just right? <END_OF_TURN>\n",
+        "user_responses": "user_response: I think sweet wine would be nice|I prefer a wine that's not too sweet.|Well, I'm not sure."
+    }
+]

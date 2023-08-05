@@ -39,13 +39,11 @@ from langchain.tools import BaseTool
 config = configparser.ConfigParser()
 config.read('../secrets.ini')
 openai_api_key = config['OPENAI']['OPENAI_API_KEY']
-serper_api_key = config['SERPER']['SERPER_API_KEY']
 serp_api_key = config['SERPAPI']['SERPAPI_API_KEY']
 kakao_api_key = config['KAKAO_MAP']['KAKAO_API_KEY']
 
 os.environ.update({'OPENAI_API_KEY': openai_api_key})
 os.environ.update({'SERPER_API_KEY': serper_api_key})
-os.environ.update({'SERPAPI_API_KEY': serp_api_key})
 os.environ.update({'KAKAO_API_KEY': kakao_api_key})
 
 class CustomSelfQueryRetriever(SelfQueryRetriever):
@@ -251,7 +249,7 @@ The form of Desired Outcome must be 'key1, key2, ...'. For example to get the na
     wine_bar_vectorstore: Any
     wine_bar_retriever: Any
 
-    def __init__(self, data_path:str='../data/wine_bar_data.json', 
+    def __init__(self, data_path:str='./data/wine_bar_data.json', 
                 page_content_columns:List=['summary'],
                 float_columns:List=[],
                 drop_columns:List=['review'],

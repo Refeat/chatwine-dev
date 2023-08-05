@@ -1,5 +1,5 @@
 {
     "_type": "prompt",
     "input_variables": ["conversation_history"],
-    "template_path": "./templates/dialog_generate_prompt_template.txt"
+    "template_path": "./model/templates/dialog_generate_prompt_template.txt"
   }

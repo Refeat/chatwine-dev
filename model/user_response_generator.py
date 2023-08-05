@@ -27,11 +27,11 @@ class UserResponseGenerator:
     async def arun(self, *args, **kwargs):
         with get_openai_callback() as cb:
             resp = await self.user_response_chain.arun(kwargs)
-            print("User Response Generator Callbacks")
-            print(f"Total Tokens: {cb.total_tokens}")
-            print(f"Prompt Tokens: {cb.prompt_tokens}")
-            print(f"Completion Tokens: {cb.completion_tokens}")
-            print(f"Total Cost (USD): ${cb.total_cost}")
+            # print("User Response Generator Callbacks")
+            # print(f"Total Tokens: {cb.total_tokens}")
+            # print(f"Prompt Tokens: {cb.prompt_tokens}")
+            # print(f"Completion Tokens: {cb.completion_tokens}")
+            # print(f"Total Cost (USD): ${cb.total_cost}")
             return resp
     
 if __name__ == "__main__":

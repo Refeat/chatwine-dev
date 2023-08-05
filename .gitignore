@@ -5,8 +5,9 @@ chroma_db/
 tutorials/chroma_db/
 data/legacy/vivino-api/
 data/vivino.json
+tutorials/test.ipynb
 
 # File ignores
 pip.txt
-secrets_copy.ini
+secrets.ini
 chromedriver.exe

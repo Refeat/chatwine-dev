@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Louis Latour Chablis",
+    "link": "/wines/2935587",
+    "country": "France",
+    "price": 80000.0,
+    "average_rating": 4.0,
+    "ratings": 6042
+  },
+  {
+    "name": "Louis Latour Chablis La Chanfleure",
+    "link": "/wines/1495655",
+    "country": "France",
+    "price": null,
+    "average_rating": 3.9,
+    "ratings": 2980
+  },
+  {
+    "name": "Louis Latour Chablis Premier Cru",
+    "link": "/wines/1603126",
+    "country": "France",
+    "price": 150000.0,
+    "average_rating": 4.0,
+    "ratings": 2223
+  },
+  {
+    "name": "Louis Latour Chablis Grand Cru Blanchots",
+    "link": "/wines/1976523",
+    "country": "France",
+    "price": null,
+    "average_rating": 3.8,
+    "ratings": 365
+  },
+  {
+    "name": "Louis Latour Chablis Grand Cru Bougros",
+    "link": "/wines/2423378",
+    "country": "France",
+    "price": null,
+    "average_rating": 4.0,
+    "ratings": 326
+  },
+  {
+    "name": "Louis Latour Chablis 1er Cru Montmains",
+    "link": "/wines/2501820",
+    "country": "France",
+    "price": null,
+    "average_rating": 4.0,
+    "ratings": 186
+  },
+  {
+    "name": "Louis Latour Chablis 1er Cru Fourchaume",
+    "link": "/wines/1644590",
+    "country": "France",
+    "price": null,
+    "average_rating": 4.1,
+    "ratings": 121
+  },
+  {
+    "name": "Louis Latour Chablis Grand Cru Les Clos",
+    "link": "/wines/4329739",
+    "country": "France",
+    "price": null,
+    "average_rating": 4.1,
+    "ratings": 134
+  },
+  {
+    "name": "Louis Latour Chablis 1er Cru Beauroy",
+    "link": "/wines/12236593",
+    "country": "France",
+    "price": null,
+    "average_rating": null,
+    "ratings": null
+  },
+  {
+    "name": "Louis Latour Chablis Grand Cru Les Grenouilles",
+    "link": "/wines/4336873",
+    "country": "France",
+    "price": null,
+    "average_rating": null,
+    "ratings": null
+  }
+]
